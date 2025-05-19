@@ -39,7 +39,7 @@ Create and export from Thunder Client or Postman:
 ## 📤 URL Collection
 URL
 -------------------------------------------
- for book\n
+ for book /n
  http://127.0.0.1:8000/api/books/     
  http://127.0.0.1:8000/api/books/<id>/
  http://127.0.0.1:8000/api/books/      
