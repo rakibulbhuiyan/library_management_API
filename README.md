@@ -37,41 +37,44 @@ Create and export from Thunder Client or Postman:
    - Penalty check
 
 ## 📤 URL Collection
-URL
--------------------------------------------
 
- http://127.0.0.1:8000/api/books/     
- http://127.0.0.1:8000/api/books/<id>/
- http://127.0.0.1:8000/api/books/     
- http://127.0.0.1:8000/api/books/<id>/ 
- http://127.0.0.1:8000/api/books/<id>/ 
- 
----------------------------------------------
+### Books
+- `GET /api/books/`  
+- `GET /api/books/<id>/`  
+- `POST /api/books/`  
+- `PUT /api/books/<id>/`  
+- `DELETE /api/books/<id>/`  
 
-http://127.0.0.1:8000/api/authors
-http://127.0.0.1:8000/api/authors/<id>
-http://127.0.0.1:8000/api/authors
-http://127.0.0.1:8000/api/authors/<id>
-http://127.0.0.1:8000/api/authors/<id>
+---
 
------------------------------------------------
+### Authors
+- `GET /api/authors/`  
+- `GET /api/authors/<id>/`  
+- `POST /api/authors/`  
+- `PUT /api/authors/<id>/`  
+- `DELETE /api/authors/<id>/`  
 
-http://127.0.0.1:8000/api/categories
-http://127.0.0.1:8000/api/categories/<id>
-http://127.0.0.1:8000/api/categories
-http://127.0.0.1:8000/api/categories/<id>
-http://127.0.0.1:8000/api/categories/<id>
+---
 
--------------------------------------------------
+### Categories
+- `GET /api/categories/`  
+- `GET /api/categories/<id>/`  
+- `POST /api/categories/`  
+- `PUT /api/categories/<id>/`  
+- `DELETE /api/categories/<id>/`  
 
-Borrow Book	http://127.0.0.1:8000/api/borrow
-List Borrowed	http://127.0.0.1:8000/api/borrowed
+---
 
---------------------------------------------------
+### Borrowing
+- `POST /api/borrow/`  
+- `GET /api/borrowed/`  
 
-http://127.0.0.1:8000/api/return
+---
 
---------------------------------------------------
+### Returning
+- `POST /api/return/`  
 
-http://127.0.0.1:8000/api/penalties
+---
 
+### Penalties
+- `GET /api/penalties/`
