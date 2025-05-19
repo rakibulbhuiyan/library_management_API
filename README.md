@@ -41,37 +41,37 @@ URL
 -------------------------------------------
 
  http://127.0.0.1:8000/api/books/     
- http://127.0.0.1:8000/api/books/<id>/
- http://127.0.0.1:8000/api/books/      
- http://127.0.0.1:8000/api/books/<id>/ 
- http://127.0.0.1:8000/api/books/<id>/ 
+ http://127.0.0.1:8000/api/books/<id>
+ http://127.0.0.1:8000/api/books     
+ http://127.0.0.1:8000/api/books/<id> 
+ http://127.0.0.1:8000/api/books/<id> 
  
 ---------------------------------------------
-Authors \n
-http://127.0.0.1:8000/api/authors/
-http://127.0.0.1:8000/api/authors/<id>/
-http://127.0.0.1:8000/api/authors/
-http://127.0.0.1:8000/api/authors/<id>/
-http://127.0.0.1:8000/api/authors/<id>/
+
+http://127.0.0.1:8000/api/authors
+http://127.0.0.1:8000/api/authors/<id>
+http://127.0.0.1:8000/api/authors
+http://127.0.0.1:8000/api/authors/<id>
+http://127.0.0.1:8000/api/authors/<id>
 
 -----------------------------------------------
 
-http://127.0.0.1:8000/api/categories/
-http://127.0.0.1:8000/api/categories/<id>/
-http://127.0.0.1:8000/api/categories/
-http://127.0.0.1:8000/api/categories/<id>/
-http://127.0.0.1:8000/api/categories/<id>/
+http://127.0.0.1:8000/api/categories
+http://127.0.0.1:8000/api/categories/<id>
+http://127.0.0.1:8000/api/categories
+http://127.0.0.1:8000/api/categories/<id>
+http://127.0.0.1:8000/api/categories/<id>
 
 -------------------------------------------------
 
-Borrow Book	http://127.0.0.1:8000/api/borrow/
-List Borrowed	http://127.0.0.1:8000/api/borrowed/
+Borrow Book	http://127.0.0.1:8000/api/borrow
+List Borrowed	http://127.0.0.1:8000/api/borrowed
 
 --------------------------------------------------
 
-http://127.0.0.1:8000/api/return/
+http://127.0.0.1:8000/api/return
 
 --------------------------------------------------
 
-http://127.0.0.1:8000/api/penalties/
+http://127.0.0.1:8000/api/penalties
 
